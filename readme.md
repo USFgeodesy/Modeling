@@ -5,7 +5,7 @@
 collection of python scripts for using Okada's DC3D0 fortran code
 for modeling of fault dislocations
 
-Description of programs:
+<h3>Description of programs:</h3>
 
 **/okadawrapper1 :** directory with okada wrappers from tbenthompson: https://github.com/tbenthompson/okada_wrapper.git
 
@@ -23,5 +23,11 @@ Description of programs:
 
 **plotPatch.py:** higher quality plot of just GPS displacments, and slip patterns on fault
 
+<h3>How to use:</h3>
 
+To run okadaPY you need to specify a faultFile, a gpsFile, and a locationFile, examples can be found in the test directory.
+
+'''
+python okadaPY.py faultFile gpsFile slipFile
+''''
 

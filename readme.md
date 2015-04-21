@@ -27,7 +27,7 @@ for modeling of fault dislocations
 
 To run okadaPY you need to specify a faultFile, a gpsFile, and a locationFile, examples can be found in the test directory.
 
-'''
+```
 python okadaPY.py faultFile gpsFile slipFile
-''''
+```
 

@@ -7,21 +7,21 @@ for modeling of fault dislocations
 
 Description of programs:
 
-/okadawrapper1 : directory with okada wrappers from tbenthompson: https://github.com/tbenthompson/okada_wrapper.git
+**/okadawrapper1 :** directory with okada wrappers from tbenthompson: https://github.com/tbenthompson/okada_wrapper.git
 
-okadaPY.py : main program, takes in fault file, a gps file, and a slip file
+**okadaPY.py :** main program, takes in fault file, a gps file, and a slip file
 
-readData.py: functions for reading in the data files including the data files specified on the command line
+**readData.py:** functions for reading in the data files including the data files specified on the command line
 
-okada_functions.py: functions for doing the dislocation calculations including the DCD0 fortran code, and the rotations
+**okada_functions.py:** functions for doing the dislocation calculations including the DCD0 fortran code, and the rotations
 
-outputData.py: writes the computed surface displacements to files
+**outputData.py:** writes the computed surface displacements to files
 
-okada.py: wrapper for the DC3D0
+**okada.py:** wrapper for the DC3D0
 
-plotData.py: simple plotting routines for the displacments at gps locations and on a grid
+**plotData.py:** simple plotting routines for the displacments at gps locations and on a grid
 
-plotPatch.py: higher quality plot of just GPS displacments, and slip patterns on fault
+**plotPatch.py:** higher quality plot of just GPS displacments, and slip patterns on fault
 
 
 
